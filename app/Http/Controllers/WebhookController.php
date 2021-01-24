@@ -16,7 +16,7 @@ class WebhookController extends Controller
         try{
             $client =  new Client();
             $response = $client->get('https://www.blockonomics.co/api/merchant_order/'.$address,[
-                'headers'=>['Authorization'=> 'Bearer 5RR8EaCwLyRpzEjZx25MmSaRmJ8VoCOHmu8lY0WDH9I'],
+                'headers'=>['Authorization'=> 'Bearer '.env('Blockonomics_API','')],
             ]);
 
             $data = json_decode($response->getBody());
