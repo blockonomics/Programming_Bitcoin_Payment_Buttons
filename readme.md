@@ -54,4 +54,11 @@ cd Blockonomics_Programming_Links
 
 </details>
 
-Now you are all set to locally run the demo!
+<details>
+<summary> The Last Line! </summary>
+
+* `php artisan serve`
+
+<p> Now you are all set to locally run the demo! </p>
+
+</details>
