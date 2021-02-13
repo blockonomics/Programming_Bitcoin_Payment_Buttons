@@ -1,6 +1,6 @@
 # Blockonomics Programming Payment Links/Buttons in Laravel
 
-This demo shows how to program the Payment Button/Link API to dynamically change the order price and also learn how to pass extra data to the API calls. [Here](https://www.youtube.com/watch?v=-FYwR1RzjXY) in the Youtube video, describing the tutorial. 
+This demo shows how to program the Payment Button/Link API to dynamically change the order price and also learn how to pass extra data to the API calls. [Here](https://www.youtube.com/watch?v=-FYwR1RzjXY) is the youtube video describing the tutorial. 
 
 ## Installing Guide
 
