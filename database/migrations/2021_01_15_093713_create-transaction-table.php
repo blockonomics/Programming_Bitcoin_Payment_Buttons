@@ -32,8 +32,9 @@ class CreateTransactionTable extends Migration
      */
     public function down()
     {
-        Schema::table('users', function(Blueprint $table){
+        Schema::table('transactions', function(Blueprint $table){
             $table->dropForeign('transaction_user_id_foreign');
+            $table->dropColumn('user_id');
         });
         Schema::dropIfExists('transaction');
     }
