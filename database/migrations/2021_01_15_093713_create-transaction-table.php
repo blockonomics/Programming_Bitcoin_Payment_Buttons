@@ -18,7 +18,7 @@ class CreateTransactionTable extends Migration
             $table->string('product_name');
             $table->float('offered_price');
             $table->string('color');
-            $table->string('user_id');
+            $table->bigInteger('user_id')->unsigned();
             $table->set('status',[-2,-1,0,1,2])->default('0');
             $table->timestampTz('created_at')->nullable();
             $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
