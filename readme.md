@@ -62,3 +62,14 @@ cd Blockonomics_Programming_Links
 <p> Now you are all set to locally run the demo! </p>
 
 </details>
+
+
+## Troubleshooting
+
+<details>
+<summary> SSL Certification Error when trying to click on apply button </summary>
+    
+* Note that this error can be traced either inside php logs or by looking at network in inspection mode. 
+* Please refer to [this link](https://stackoverflow.com/questions/29822686/curl-error-60-ssl-certificate-unable-to-get-local-issuer-certificate) to help you solve the issue.
+
+</details>
