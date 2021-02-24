@@ -4,16 +4,6 @@ This demo shows how to program the Payment Button/Link API to dynamically change
 
 ## Installing Guide
 
-
-<details open>
-<summary> Cloning Repository </summary>
- 
-```
-git clone https://github.com/AJ-54/Blockonomics_Programming_Links.git
-cd Blockonomics_Programming_Links
-```
-</details>
-
 <details>
 <summary> Installing dependencies </summary>
 
@@ -46,10 +36,9 @@ cd Blockonomics_Programming_Links
 <summary> Blockonomics Website Setup </summary>
 
 * Create your payment link from [here](https://www.blockonomics.co/merchants) by going to PAYMENT BUTTONS/URL tab.
-* Head to [this line](https://github.com/AJ-54/Blockonomics_Programming_Links/blob/75a4f139d298cd43dfafe20525d9823a31e3a44b/app/Http/Controllers/HomeController.php#L67) and replace the `parent_uid` with your value. Note that `parent_uid` is the one which is appended in your payment link after `https://www.blockonomics.co/pay-url/`.
-* Go to `OPTIONS` in the PAYMENT BUTTONS/URL tab on [this page](https://www.blockonomics.co/merchants#/page3). You need to setup the `ORDER HOOK URL` and `Redirection URL`.
+* Head to [this line](https://github.com/blockonomics/Programming_Bitcoin_Payment_Buttons/blob/master/app/Http/Controllers/HomeController.php#L67) and replace the `parent_uid` with your value. Note that `parent_uid` is the one which is appended in your payment link after `https://www.blockonomics.co/pay-url/`.
+* Go to `OPTIONS` in the PAYMENT BUTTONS/URL tab on [this page](https://www.blockonomics.co/merchants). You need to setup the `ORDER HOOK URL` and `Redirection URL`.
 * To test the code locally, follow instructions from [this](https://www.youtube.com/watch?v=6Ydk32avIgo) video and make sure to place the `<domain>/receive` as your order hook url and `<domain>/home` as redirection url. Here `<domain>` is the domain you get from reverse proxy (Ngrok/localtunnel).
-* Please make sure you are using `http` and not `https`. Your domain would be in `https` but place `http` URL in the order hook url and redirection url. 
 * Make sure to save your changes!
 
 </details>
