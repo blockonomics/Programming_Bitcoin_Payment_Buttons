@@ -2,6 +2,9 @@
 
 This demo shows how to program the Payment Button/Link API to dynamically change the order price and also learn how to pass extra data to the API calls. [Here](https://www.youtube.com/watch?v=-FYwR1RzjXY) is the youtube video describing the tutorial. 
 
+## Reference API documentation
+https://help.blockonomics.co/support/solutions/articles/33000255235-programming-payment-buttons-links
+
 ## Installing Guide
 
 <details>
